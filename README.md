@@ -1,3 +1,3 @@
 # contact-me
-My third proyect a contac me 
+My third proyect a contact me 
 https://liensanchez.github.io/contact-me/

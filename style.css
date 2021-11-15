@@ -60,3 +60,66 @@ p{
   background: #25d366;  
   border-radius: 15px;
 } 
+@media only screen and (max-width: 768px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montagu Slab', serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  .box{
+    font-size: 3rem;
+    width: 60px;
+    height: 62px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 5px;
+    cursor: pointer;
+    margin: 0.6em;
+    transition: all .4s;
+  }
+  .box:hover{
+    width: 290px;
+    background: #1da1f2;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 50px #1876f285;
+  }
+  .box:nth-child(2):hover{
+    width: 320px;
+    background:  #1877f2;
+    box-shadow: 0 0 50px #1da0f280;
+  }
+  .box:nth-child(3):hover{
+    width: 360px;
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+  }
+  p{
+    transform: translate(30px);
+  }
+  .twitter{  
+    background: #1da1f2;  
+    border-radius: 15px;
+  }  
+  .linkedin{  
+    background: #1877f2;  
+    border-radius: 15px;
+  }  
+  .whatsapp{  
+    background: #25d366;  
+    border-radius: 15px;
+  } 
+}
